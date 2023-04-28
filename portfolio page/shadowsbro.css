@@ -1,0 +1,7 @@
+h1{
+    text-shadow: 0px 5px 0px gold , 1px -2px 3px maroon
+}
+h1:hover{
+    box-shadow: 5px 5px 3px black;
+}
+      /* Definition=  There are three numbers and a color that follow the first three are in pixels and then pick whatever you want for a shadow maybe gold the first number is for the positioning on the x axis a positive number will result in the shadow being moved to the right a negative number to the left the second number is for the y axis a positive number will move your shadow below your text. a negative number and your shadow will appear above the text and you can combine these two if i need the shadow to the bottom and to the right i will set these two numbers to be positive the larger the number thr greater the displacement of your shadow this third number is for the spread a higher number results in a further spread so if i set this to 15 we can barely see our shadow anymore maybe lets set that to five thats a decent looking shadow. ( after gold you can add three more values for other change) */

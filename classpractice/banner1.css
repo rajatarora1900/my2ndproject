@@ -1,0 +1,161 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.full
+{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background: url(/images/college.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.main
+{
+    width: 90%;
+    margin: auto;
+}
+.navbar
+{
+    width: 90%;
+    height: 100px;
+    margin-top: 30px;
+    background: whitesmoke;
+    float: left;
+}
+.navbar span{
+    float: left;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: hotpink;
+}
+.navbar p{
+    float: left;
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: bold;    
+}
+.navbar ul {
+    float: left;
+    padding-left: 50px;
+}
+.navbar ul li{
+    float: left;
+    padding: 40px 30px;
+    font-weight: bold;
+    color: blue; 
+}
+ .call li a 
+ {
+    float: right;
+    color: rgb(189, 22, 22);
+    font-size: 50px;
+}
+.center
+{
+    width: 100%;
+    margin-top: 215px;
+    float: left;
+    color: white;
+}
+.center .prev
+{
+    float: left;
+    background: grey;
+    padding: 20px 20px;
+}
+.center .education
+{
+    float: left;
+    text-align: center;
+    font-size: 71px;
+    padding-left: 170px;
+}
+.center .next
+{
+    float: right;
+    background: grey;
+    padding: 20px 20px;
+}
+ .education span1{
+    background: orange;
+}
+.footer
+{
+    width: 90%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 90px;
+    padding-left: 50px;
+}
+ .footer1
+{
+    width: 310px;
+    height: 180px;
+    background: rgb(30, 25, 25);
+    float: left;
+}
+ .footer1 .material-icons
+{
+    font-size: 60px;
+    color: orange;
+    float: left;
+    padding: 55px 22px ;
+}
+ p1, p3 ,p5
+{
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    color: white;
+    padding-top: 65px;
+    margin-bottom: 15px;
+}
+p2, p4, p6{
+    color: white;
+    font-size: 15px;
+    float: left;
+}
+
+ .footer2
+{
+    width: 310px;
+    height: 180px;
+    background: rgb(30, 25, 25);
+    float: left;
+    margin-left: 30px;
+}
+.footer2 .material-icons{
+    font-size: 60px;
+    color: orange;
+    float: left;
+    padding: 55px 22px ;
+}
+
+
+ .footer3
+{
+    width: 310px;
+    height: 180px;
+    background: rgb(30, 25, 25);
+    float: left;
+    margin-left: 30px;
+}
+.footer3 .material-icons{
+    font-size: 60px;
+    color: orange;
+    float: left;
+    padding: 55px 22px ;
+}
+.navv li a:hover{
+    background: rgb(27, 186, 27);
+    color: white;
+}

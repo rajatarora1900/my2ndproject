@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    
+    background: lawngreen;
+    font-weight: bold;
+    height: 200px;
+    
+}
+.two{
+    height: 200px;
+    background-image: url(/images/153-1531529_training-jordan-nike-wallpaper-hd-2016-in-fitness.png);
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body
+{
+    background: url(/images/gym/pexels-victor-freitas-949132.jpg);
+    background-size: cover;
+}
+.new
+{
+    width: 50%;
+    height: 50vh;
+    background: rgba(231, 226, 226, 0.537);
+
+     margin:calc(50vh - 25vh) auto;
+    backdrop-filter: blur(1px) brightness(2px);
+}
+.new p{
+       text-align: center;
+       line-height: 25px;
+}
+h1{
+    text-align: center;
+    line-height: 90px;
+}
+.div1
+{
+    width: 400px;height: 400px;background: lawngreen;float: left;animation: rajat 5s infinite;position: absolute;animation-direction: alternate-reverse;
+}
+@keyframes rajat {
+    /* from
+    {
+        background: rosybrown;
+    }
+    to 
+    {
+        background: lawngreen;
+    }   
+} */
+0%
+{
+    background: url(/images/gym/wp5571766.jpg);
+    background-size: cover;
+    left: 0;top: 0;
+}
+25%
+{
+    background:url(/images/gym/dwayne-johnson-lifting-dumbbells-9l.jpg);
+    background-size: cover;
+    left:calc(100% - 400px) ;top: 0;
+}
+50%
+{
+    background: url(/images/gym/a.jpg);
+    background-size: cover;
+    left: calc(100% - 400px);top: calc(100% - 400px);
+}
+75%
+{
+    background: url(/images/gym/wp1811979.jpg);
+    background-size: cover;
+    left: 0;top: calc(100% - 400px);
+}
+100%
+{
+    background: url(/images/gym/wp5571638.jpg);
+    background-size: cover;
+    left: 0;top: 0;
+}
+
+}

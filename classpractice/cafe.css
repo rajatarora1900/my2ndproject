@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+.full
+{
+    width: 100%;
+    float: left;
+    height: 200vh;
+    background: url(/images/cafe/plain\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo
+{
+    width: 500px;
+    height: 100px;
+    background: url(/images/cafe/logo3.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 10px;
+    margin-left:33% ;
+   
+}
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    background: rgb(189, 187, 45);
+    float: left;
+    margin-top: 10px;
+    border-bottom: 4px double black;
+}
+.navbar ul{
+    float:left;
+    list-style: none;
+    padding-left: 15% ;
+}
+.navbar ul li{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.navbar ul li a{
+    padding: 25px 40px; display: block;
+}
+.navbar ul li a:hover
+{ background: rgb(60, 60, 45); }
+
+.mainsection
+{
+    width: 80%;
+    height: 100vh;
+    float: left;
+    background: white;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+}
+.section1
+{
+    width: 94%;
+    height: 400px;
+    background: url(/images/cafe/bak.jpg);
+    background-size: 70% 100%;
+    background-position: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.section1 span{
+    float: left;
+    font-size: 50px;
+    margin: 15% -11px;
+    color: yellow;
+}
+.icon2 span{
+    float: right;
+    font-size: 50px;
+    margin-top: 15%;
+}
+.section11
+{
+    width: 94%;
+    float: left;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 10px;
+    background: palevioletred;
+}
+.sectionpart
+{
+    width: 50%;
+    float: left;
+    padding: 10px 20px;
+}
+.section11 span{
+    width: 11%;
+    float: left;
+    font-size: 60px;
+    margin: 30px 10px;
+}
+.section11 h4 {
+    width: 80%;
+    float: left;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section2 p{
+    float: left;
+    font-size: 15px;
+    margin-top: 50px;
+
+}
+.section12 span{
+    float: left;
+    font-size: 60px;
+}

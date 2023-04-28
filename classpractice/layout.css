@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.full
+{
+    width: 100%;
+    height: 100vh;
+    text-decoration: none;
+    float: left;
+}
+.main
+{
+    width: 90%;
+    margin: auto;
+}
+
+.header
+{
+    width: 100%;
+    height:70px; 
+    background: rgb(26, 184, 242); 
+     
+}
+.nav p{
+    width: 300px;
+    height: 90px;
+    font-size: 40px;
+    
+}
+.nav ul 
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}

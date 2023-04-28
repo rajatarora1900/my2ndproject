@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    background-color: grey;
+    height: 500px;
+}
+
+.space {
+    width: 80%;
+    margin: auto;
+}
+
+.margin-top-1 {
+    margin-top: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.header-content {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.service {
+    text-align: center;
+}

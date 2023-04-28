@@ -1,0 +1,108 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top
+{
+    width: 100%;
+    float: left;
+}
+.bg-1
+{
+    background: rgb(103, 229, 86);
+}
+.brand
+{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    float: left;
+    color: aqua;
+}
+.top .navbar{
+    list-style: none;
+    float: right;
+}
+.top .navbar li
+{
+float: left;
+}
+.navbar ul 
+{
+    list-style: none;
+    width: 200px;
+    background: rgb(156, 5, 5);
+    position: absolute;
+    visibility: hidden;
+}
+.big
+{
+    width: 80%;
+    height: 50vh;
+    background: rgb(212, 248, 120);
+    position: absolute;
+    visibility: hidden;
+    left: 10%;
+}
+.top .navbar li:hover .big
+{
+    visibility: visible;
+}
+.navbar li:hover ul
+{
+visibility: visible;
+}
+.top .navbar ul li{
+    width: 100%;
+}
+
+.top .navbar li a{
+    display: block;
+    padding: 18px 25px;
+    transition: background .5s;
+    color: indigo;
+}
+.top .navbar li a:hover{
+    background: violet;
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background: powderblue;
+    display: table;
+}
+.inner
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.bg-c
+{
+    background: peru;
+}
+.one
+{
+    background: orange;
+    padding: 5px 5px;
+    margin-top: 10px;
+    cursor: cell;
+    
+}
+.two
+{
+    background: palegreen;
+    padding: 5px 5px;
+    margin-top: 10px;
+    cursor: grabbing ;
+}
+@media screen and (max-width:1024px)
+{
+   .bg-1,.one
+   {
+    background: rgb(156, 5, 5);
+   }
+}

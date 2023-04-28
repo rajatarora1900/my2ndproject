@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.full
+{
+    width: 100%;
+    float: left;
+}
+.main
+{
+    width: 100%;
+    margin: auto;
+}
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    background: whitesmoke;
+}
+.navbar .left
+{
+    width: 140px;
+    float: left;
+    margin: 20px 20px;
+    color: rgb(87, 187, 226);
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.mid
+{
+    width: 1000px;
+    float: left;   
+}
+
+.mid li{
+    float: left;
+    list-style: none;
+    margin:30px 55px;
+    font-size: 20px;
+    font-weight: bold;   
+}
+.mid ul li a:hover
+{
+    background:orchid;
+}
+.mid ul li a{
+    padding: 30px 15px;
+}
+.right
+{
+    float: right;
+}
+.right button{
+    /* float: right; */
+    padding: 15px 20px;
+    margin:18px 120px ;
+    background: rgb(77, 145, 228);
+    border-style: none;
+    color: white;
+}
+.header
+{
+    width: 100%;
+    height: 600px;
+    background: url(/images/collegestudent.jpg);
+    background-size: 100% 140%;
+}
+/* .box1
+{
+    width: 100%;
+    height: 185px;
+    background: rgb(177, 176, 176);
+    display: table-cell;
+}
+.boxtext
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+} */
+.box1
+{
+    width: 50%;
+    float: left;
+}
+ .boxtext
+{
+    width: 100%; 
+    height: 130px;
+    float: left; 
+    background: rgba(150, 143, 143, 0.587);
+    color: white;
+    text-align: center;
+    margin: calc(35vh - 80px) 0 0 calc(50% - 30%);
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+/* .section
+{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: rgb(150, 25, 25);
+    
+}
+.sectiontext{
+    float: left;
+} */
+.section
+{
+    width: 100%;
+    display: inline-block;
+    height: 600px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.bg1
+{
+    
+    background: rgb(241, 225, 196);
+}

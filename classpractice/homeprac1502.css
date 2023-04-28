@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.box
+{
+    width: 100%;
+    height: 60vh;
+    border: 5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.items
+{
+    width: 120px;
+    height: 120px;
+    background: lawngreen;
+    margin: 20px;
+    border: 2px solid black;
+    color:blue;
+}
+.items:nth-child(4)
+{   
+     display: flex; 
+    align-items: center;  
+    justify-content: center;
+}
+.img1
+{
+    background: url(/images/call.jpg)no-repeat;
+    background-size: cover;
+}
+.img2
+{
+    background: url(/images/pexels-stephen-niemeier-176837.jpg);
+    background-size: cover;
+}
+.img3
+{
+    background: url(/images/pexels-dids-1769735.jpg);
+    background-size: cover;
+}

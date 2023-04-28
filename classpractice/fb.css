@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container
+{
+    width: 85%;
+    margin: auto;
+}
+.top
+{
+    width: 100%;
+    float: left;
+    background: rgb(77, 105, 168);
+    padding: 10px 0;
+}
+.fb
+{
+    color: beige;
+    text-decoration: none;
+    font-size: 50px;
+    float: left;
+}
+.login
+{
+    float: right;
+    color: white;
+    margin-top: 10px;
+
+}
+.in{
+     float: left;
+     margin-right: 15px;
+}
+.in label
+{
+    display: block;
+}
+.btn
+{
+    width: 100px;
+    height: 30px;
+    background: wheat;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.content
+{
+    width: 100%;
+    float: left;
+}
+
+.lft h1
+{
+    font-size: 40px;
+    width: 55%;
+    
+}
+
+.icon
+{
+    width: 100%;
+    margin-top: 50px;
+    float: left;
+}
+
+.icon .material-icons
+{
+    color:crimson;
+    font-size: 80px;
+    float: left;
+}
+
+.icon .top{
+    margin-top: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+.icon p{
+    float: left;
+    margin-top: 30px;
+}

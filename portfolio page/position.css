@@ -1,0 +1,21 @@
+.aa{
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  background-color: skyblue;
+       
+     position: relative;
+
+
+}
+.bb{  border: 1px solid;
+    height: 150px;
+    width: 150px;
+    background-color:pink;
+            
+       position: absolute;
+
+       top: 75px;
+       left: 75px;
+
+}

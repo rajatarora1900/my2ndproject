@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+.div{
+    background: url(/images/library.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    float: left;
+    height: 900px;
+}
+.div1{
+    width: 100%;
+    background: -webkit-linear-gradient(360deg, white 75%,rgb(255, 174, 0) 25%);
+    height: 100px;
+    float: left;
+    margin-top: 60px;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    
+}
+.logo{
+    float: left;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav{
+    float: left;
+    margin-left: 120px;
+    font-size: 16px;
+}
+.nav li a:hover{
+    background: red;
+    color: white;
+    
+}
+.nav li a{
+    color: rgb(70, 67, 67);
+    padding: 40px 18px;
+    display: block;
+    transition: .8s;
+}
+.nav li{
+    float: left;
+    font-weight: bold;
+}
+.icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    background: violet;
+    padding-top: px;
+    float: left;
+}
+.nav2{
+    float: right;
+    width: 22%;
+}
+.icon2{
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+}
+.nav2 p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 36px;
+}
+.div2{
+    width: 100%;
+    float: left;
+    
+}
+.prev{
+    width: 70px;
+    height: 60px;
+    float: left;
+    background: white;
+    color: rgb(41, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 250px;
+    text-align: center;
+    padding-top: 15px;
+    transition: .8s;
+}
+.prev:hover{
+    background: gray;
+    color: white;
+}
+.next{
+    width: 70px;
+    height: 60px;
+    float: right;
+    background: white;
+    color: rgb(41, 39, 39);
+    font-size: 20px;
+    margin-top: 250px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    transition: .8s;
+}
+.next:hover{
+    background: gray;
+    color: white;
+}
+.div2 p{
+    font-size: 65px;
+    float: left;
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: 230px;
+    color: white;
+}
+.div2 span{
+    background: rgb(243, 191, 20);
+}
+.div3{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+.main2{
+    width: 80%;
+    margin: auto;
+}
+.div3a{
+    width: 31%;
+    margin-left: 2.2%;
+    float: left;
+    height: 200px;
+    background: rgb(33, 31, 31);
+    transition: .8s;
+    cursor: pointer;
+}
+.div3a:hover{
+    background: rgb(61, 60, 60);
+   
+}
+.icon3{
+    margin-top: 50px;
+    float: left;
+    margin-left: 30px;
+    width: 100px;
+}
+.icon4{
+    margin-top: 50px;
+    float: left;
+    background-color: yellow;
+    margin-left: 30px;
+    padding-top: 5px;
+    width: 80px;
+}
+.span1{
+    font-size: 27px;
+    width: 60%;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+.div3a p{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+.div3b{
+    width: 31%;
+    margin-left: 1%;
+    float: left;
+    height: 200px;
+    background: rgb(33, 31, 31);
+    transition: .8s;
+    cursor: pointer;
+}
+.div3b:hover{
+    background: rgb(61, 60, 60);
+}
+.div3c{
+    width: 31%;
+    float: left;
+    margin-left: 1%;
+    height: 200px;
+    background: rgb(33, 31, 31);
+    transition: .8s;
+    cursor: pointer;
+}
+.div3c:hover{
+    background: rgb(61, 60, 60);
+}
+.div3b p{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+.div3c p{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}

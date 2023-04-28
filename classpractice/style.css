@@ -1,0 +1,38 @@
+.ee
+{
+    width: 1000px;
+}
+.aa
+{
+    width: 1000px;
+    height: 100px;
+    background: rgb(91, 21, 156);
+    float: left;
+    
+    
+}
+.bb
+{
+    width: 400px;
+    height: 700px;
+    background-color: aqua; 
+    float: left;
+    
+
+}
+.cc
+{
+    width: 400px;
+    height: 700px;
+    background-color: chartreuse;
+    float: right;
+}
+.dd
+{
+    width: 1000px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    float: left;}
+
+
+

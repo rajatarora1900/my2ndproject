@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.full
+{
+    width: 100%;
+    float: left;
+    background: url(/images/library.jpg)no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.main
+{
+    width: 90%;
+    margin: auto;
+}
+.first
+{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    background: rgba(255, 255, 255 ,.8);
+}
+.first img{
+    width: 60px;
+    height: 60px;
+}
+.first p
+{
+    float: left;
+    font-size: 40px;
+    margin-top: 0px;
+    font-weight: bolder;
+    margin-left: 10px;
+    line-height: 100px;
+    color: black;
+    transition: .6s; 
+}
+.first p:hover
+{
+    background: rgb(255, 182, 6);
+    color: white;
+}
+.libicon
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 30px 0 0 8%;
+
+}
+.nav
+{
+    float: right;
+}
+.nav li
+{
+    float: left;
+}
+.nav li a
+{
+    padding: 45px 40px;
+    font-size: 12px;
+    display: block;
+    color: black;
+    font-weight: bold;
+    transition: .7s;
+}
+.nav li a:hover
+{
+    color: white;
+    background: rgb(255, 182, 6);
+}
+.nav2
+{
+    float: right;
+}
+.nav2 li
+{
+    float: left;
+}
+.nav2 li a
+{
+    padding: 45px 40px;
+    font-size: 12px;
+    display: block;
+    color: white;
+    font-weight: bold;
+    background: rgb(255, 182, 6);
+    transition: .7s;
+}
+.nav2 li a:hover
+{
+    background: none;
+    color: black;
+}
+.nav2 li a .material-icons
+{
+    float: left;
+    font-size: 15px;
+    margin-right: 10px;
+    color: white;
+}
+.first2
+{
+    width: 100%;
+    float: left;
+    margin-top: 250px;
+}
+.prev
+{
+    float: left;
+    padding: 30px 20px;
+    font-size: 12px;
+    background: white;
+}
+.prev:hover
+{
+    color: white;
+    background: rgb(255, 182, 6);
+}
+.education
+{
+    width: 80%;
+    float: left;
+    font-size: 65px;
+    color: white;
+    padding-left: 20%;
+}
+.education span
+{
+    background: rgb(255, 182, 6);
+}
+.next
+{
+    float: right;
+    padding: 30px 20px;
+    font-size: 12px;
+    background: white;
+}
+.next:hover
+{
+    color: white;
+    background: rgb(255, 182, 6);
+}
+.first3
+{
+    width: 100%;
+    float: left;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.first3 ul li .material-icons
+{
+    float: left;
+    font-size: 80px;
+    color: rgb(255, 182, 6);
+    margin-right: 30px;
+}
+.first3 ul li
+{
+    width: 28%;
+    float: left;
+    margin-left: 5%;
+    background: rgb(26, 26, 26);
+    padding: 50px 30px;
+}
+.first3 ul li a
+{
+    font-size: 30px;
+    color: white;
+}
+.first3 ul li a p
+{
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+}
+.first3 ul li:nth-child(2),.first3 ul li:nth-child(3)
+{
+    margin: 0 0 0 3%;
+}
